@@ -8,7 +8,10 @@ This repository includes some tiny bash scripts to create a working environment 
 
 A task follows thus a lifecycle that makes to travel it through the different books. At the very beginning, a task is created in the `all-tasks` book. Once the user decides to assign the task, this one is moved to the `today-tasks` book. Lately, when the task is closed, this one is moved to the `done-tasks` and `weekly-progress` books. The following figure presents the lifecycle of a task in this schema.
 
-FIGURE
+<p align="center">
+<img src="https://github.com/Noitty/dnote-cli-utils/blob/main/doc/res/block-diagram.png"
+     alt="Lifecycle of a task" />
+</p>
 
 As the previous figure presents, the tasks can also be moved backward. Specifically, if an assigned task cannot be closed in the corresponding day, it can be retracted to the `all-tasks` book. The same can be achieved with tasks that are closed in the `done-tasks` book, which can be opened again to the `all-tasks`.
 
